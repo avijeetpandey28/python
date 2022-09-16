@@ -1,3 +1,6 @@
+import sys
+print(sys.version)
+
 print("hello python")
 
 print("hello" , "python", sep='\n')
