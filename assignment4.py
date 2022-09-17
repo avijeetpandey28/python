@@ -20,25 +20,10 @@ print(number1 + number2)
 69
 #4
 #Write a python script which takes the radius from the user and display area of a circle.
-radius = float(int(enter the radius: ))
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-radius = float(int("enter the radius: "))
-Traceback (most recent call last):
-  File "<pyshell#14>", line 1, in <module>
-    radius = float(int("enter the radius: "))
-ValueError: invalid literal for int() with base 10: 'enter the radius: '
-radius = float(innput("enter the radius: "))
-Traceback (most recent call last):
-  File "<pyshell#15>", line 1, in <module>
-    radius = float(innput("enter the radius: "))
-NameError: name 'innput' is not defined. Did you mean: 'input'?
+
 radius = float(input("enter the radius: "))
 enter the radius: 3.2
-area = 3.14*r*r
-Traceback (most recent call last):
-  File "<pyshell#17>", line 1, in <module>
-    area = 3.14*r*r
-NameError: name 'r' is not defined
+
 area = 3.14*radius*radius
 print(area)
 32.153600000000004
@@ -53,6 +38,7 @@ print(square)
 square = num**2
 print(square)
 1024
+
 #6 Write a python script to calculate the area of Triangle. Number is entered by the user.
 base = float(input("enter the base: "))
 enter the base: 29
@@ -72,6 +58,7 @@ enter the third number: 124
 average = (num1+num2+num3)/3
 print(average)
 76.0
+
 #8 Write a python script to calculate simple interest
 principal = float(input("enter the principal:  "))
 enter the principal:  10000
@@ -79,32 +66,19 @@ rate = float(input("enter the rate:  "))
 enter the rate:  78
 time = float(input("enter the time:  "))
 enter the time:  24
-simple interest = (principal*rate*time)/100
-SyntaxError: invalid syntax
+
 simpleinterest = (principal*rate*time)/100
 print(simpleinterest)
 187200.0
 
 #9Write a python script to calculate the volume of a cuboid.
-length = float(input("enter the length:  " )
-breadth= float(input("enter the breadth:  " )
-               
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-breadth = float(input("enter the breadth :  " )
-                
-height =  float(input("enter the height :  " )
-                
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-length = float(input("enter the length: "))
-                
+             
 enter the length: 34
 breadth = float(input("enter the breadth: "))
                 
 enter the breadth: 93
-height =
-                
-SyntaxError: invalid syntax
 
+  
 height = float(input("enter the height: "))
                 
 enter the height: 21
@@ -113,6 +87,7 @@ volume = length*breadth*height
 print(volume)
                 
 66402.0
+
 #10Write a python script to calculate area of a rectangle
                 
 length = float(input("enter the length: "))
