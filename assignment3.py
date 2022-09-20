@@ -20,8 +20,7 @@ print(bin(b))
 0b11110
 
 #ans5
-KeyboardInterrupt
-KeyboardInterrupt
+
 #ans5 5. Write a python script to print any number and its octal equivalent.
 c = 13
 print(c,oct(c))
