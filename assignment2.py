@@ -27,7 +27,7 @@ j = 5.46
 k = 3+4j
 print(type(a))
 <class 'int'>
-KeyboardInterrupt
+
 print(type(g))
 <class 'int'>
 print(type(h))
@@ -51,9 +51,6 @@ h = True
 i = "MySirG"
 j = 5.46
 k = 3+4j
-print(type(a),id(a)
-      
-SyntaxError: multiple statements found while compiling a single statement
 print(type(a),id(a))
       
 <class 'int'> 1765339693584
@@ -77,7 +74,9 @@ print(type(k),id(k))
 import keyword
 print(keyword.kwlist)
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
- #ans7
+
+#ans7
+
 help()
 
 Welcome to Python 3.10's help utility!
@@ -116,36 +115,6 @@ interpreter, you can type "help(object)".  Executing "help('string')"
 has the same effect as typing a particular string at the help> prompt.
 
 #ans8
-import a1
-Traceback (most recent call last):
-  File "<pyshell#45>", line 1, in <module>
-    import a1
-ModuleNotFoundError: No module named 'a1'
-import a1
-Traceback (most recent call last):
-  File "<pyshell#46>", line 1, in <module>
-    import a1
-ModuleNotFoundError: No module named 'a1'
-import A1
-Traceback (most recent call last):
-  File "<pyshell#47>", line 1, in <module>
-    import A1
-ModuleNotFoundError: No module named 'A1'
-import a1
-Traceback (most recent call last):
-  File "<pyshell#48>", line 1, in <module>
-    import a1
-ModuleNotFoundError: No module named 'a1'
-import a2
-Traceback (most recent call last):
-  File "<pyshell#49>", line 1, in <module>
-    import a2
-ModuleNotFoundError: No module named 'a2'
-
-========================= RESTART: C:/Users/avije/a2.py ========================
-
-========================= RESTART: C:/Users/avije/a2.py ========================
-2
 import a2
 2
 print(a2.x)
@@ -159,19 +128,7 @@ False
 None
 
 #ans 10
-from datatime import datetime
-Traceback (most recent call last):
-  File "<pyshell#59>", line 1, in <module>
-    from datatime import datetime
-ModuleNotFoundError: No module named 'datatime'
-from datetime import datetime
-dt = datetime.today
-print(dt)
-<built-in method today of type object at 0x00007FF8B9E88CD0>
-from datetime import datetime
-dt = datetime.today()
-print(dt)
-SyntaxError: multiple statements found while compiling a single statement
+
 from datetime import datetime
 dt = datetime.today()
 print(dt)
