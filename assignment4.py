@@ -32,9 +32,6 @@ print(area)
 #Write a python script to calculate the square of a number. Number is entered by the user.
 num = int(input("enter the number: "))
 enter the number: 32
-square = num**num
-print(square)
-1461501637330902918203684832716283019655932542976
 square = num**2
 print(square)
 1024
@@ -72,20 +69,14 @@ print(simpleinterest)
 187200.0
 
 #9Write a python script to calculate the volume of a cuboid.
-             
+length = float(input("enter the length: "))             
 enter the length: 34
 breadth = float(input("enter the breadth: "))
-                
 enter the breadth: 93
-
-  
 height = float(input("enter the height: "))
-                
 enter the height: 21
 volume = length*breadth*height
-                
 print(volume)
-                
 66402.0
 
 #10Write a python script to calculate area of a rectangle
