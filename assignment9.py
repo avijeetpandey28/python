@@ -15,7 +15,7 @@ while i<=n:
 #3. Write a python script to print first N natural numbers in reverse order
 n = int(input("enter a number"))
 i=n
-110while i>=1:
+while i>=1:
     print(i)
     i-=1
 print()
