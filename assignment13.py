@@ -24,6 +24,8 @@ print(mylist)
 #6. Write a python program to append elements from another list to the current list.(firstlist = ["Java", "Python", "SQL"] secondlist = ["C", "Cpp", "NoSQL"] )
 firstlist = ["Java", "Python", "SQL"]
 secondlist = ["C", "Cpp", "NoSQL"]
+finallist = firstlist + secondlist
+print(finallist)
 
 #7. Write a python program to Print all items by referring to their index number (thislist = ["Java", "SQL", "C", "Reactnative", "Javascript", "Python"]
 thislist = ["Java", "SQL", "C", "Reactnative", "Javascript", "Python"]
